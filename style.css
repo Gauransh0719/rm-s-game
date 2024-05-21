@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:dimgray;
+  }
+  
+body h1{
+  padding-left: 150px;
+}
+
+  #game-container {
+    width: 400px;
+    height: 450px;
+    position: relative;
+    margin: 50px auto;
+    border: 3px solid #000;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 10px;
+  }
+  
+#game-container img{
+height: 450px;
+}
+
+  /* Styles for the man SVG */
+/* Styles for the man SVG */
+#man img{
+  bottom: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+
+}
+#man {
+  bottom: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+/* Styles for the soup SVG */
+#soup img{
+  width: 20px; /* Adjust the width of the soup SVG */
+  position: absolute;
+  height: 20px;
+  border-radius: 50%;
+  top: 0;
+  background-color: plum;
+}
+#soup{
+  width: 20px; /* Adjust the width of the soup SVG */
+  position: absolute;
+  height: 20px;
+  border-radius: 50%;
+  top: 0;
+  background-color: plum;
+}
+/* Remaining styles for the game container, score, end message, and restart button remain the same */
+
+
+/* Remaining styles for the game container, score, end message, and restart button remain the same */
+
+  #score {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #end-message {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  #restart-btn {
+    display: block;
+    margin: 20px auto;
+  }
+  .invert{
+    filter: invert(100%)
+    hue-rotate(180deg);
+  }
+
+  .father{
+    height: 600px;
+    width: 500px;
+    background-color: grey;
+    margin-left: 55px;
+  }
